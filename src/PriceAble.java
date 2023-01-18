@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface PriceAble {
+public interface PriceAble {
+    double calculateTicketPrice(double ticketPrice) throws Exception;
 }
